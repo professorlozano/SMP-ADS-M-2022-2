@@ -1,0 +1,31 @@
+out.println("<!DOCTYPE html>");
+out.println("<html>");
+
+out.println("<head>");
+out.println("<title>Formulário</title>");
+out.println("<meta charset='UTF-8'>");
+out.println("<meta name='viewport' content='width=device-width, initial-scale=1.0'>");
+out.println("<link rel='stylesheet' href='css/bootstrap.min.css'>");
+out.println("<script src='js/bootstrap.min.js'></script>");
+out.println("</head>");
+
+out.println("<body>");
+out.println("<div class='container'>");
+out.println("<form class='form-horizontal' action='Calcular' method='post'>");
+out.println("<div class='form-group'>");
+out.println("<label for='inputNota1' class='control-label col-xs-2'>Nota 1:</label>");
+out.println("<div class='col-xs-10'>");
+out.println("<input type='text' class='form-control' id='inputNota1' name='txtNota1' placeholder='Digitar Nota' required>");
+out.println("</div>");
+out.println("</div>");
+out.println("<div class='form-group'>");
+out.println("<label for='inputNota2' class='control-label col-xs-2'>Nota 2</label>");
+out.println("<div class='col-xs-10'>");
+out.println("<input type='text' class='form-control' id='inputNota2' name='txtNota2' placeholder='Digite Nota' required>");
+out.println("</div>");
+out.println("</div>");
+out.println("<div class='form-group'>");
+out.println("<div class='col-xs-offset-2 col-xs-10'>");
+out.println("<button type='submit' class='btn btn-primary'>Calcular</button>");
+out.println("</div>");
+out.println("</div>");
